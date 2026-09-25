@@ -1,0 +1,35 @@
+<?jelly escape-by-default='true'?>
+
+<j:jelly
+    xmlns:j="jelly:core"
+    xmlns:f="/lib/form">
+
+    <f:section title="Build Evidence Exporter">
+
+        <f:entry
+            title="Enable Evidence Export"
+            field="enabled">
+
+            <f:checkbox/>
+
+        </f:entry>
+
+        <f:entry
+            title="Output Directory"
+            field="outputDirectory">
+
+            <f:textbox/>
+
+        </f:entry>
+
+        <f:entry
+            title="Store as Build Artifact"
+            field="storeAsArtifact">
+
+            <f:checkbox/>
+
+        </f:entry>
+
+    </f:section>
+
+</j:jelly>

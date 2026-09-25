@@ -1,0 +1,18 @@
+# Maven
+target/
+
+# Java
+*.class
+
+# Jenkins plugin build artifacts
+*.hpi
+*.jpi
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
