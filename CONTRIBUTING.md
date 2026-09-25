@@ -64,7 +64,7 @@ The project is implemented as a Jenkins plugin using Java and the Jenkins plugin
 
 A development environment should include:
 
-- A supported JDK
+- JDK 25
 - Maven
 - Git
 - A Jenkins development/test environment
@@ -82,6 +82,16 @@ Build the project with:
 mvn verify
 ```
 
+## Code Style
+
+Please follow the existing Java code style used in the project.
+
+- Use clear and descriptive names for classes, methods, and variables.
+- Keep methods focused and reasonably small.
+- Add comments when they help explain non-obvious code.
+- Keep formatting consistent with the existing code.
+- Avoid unrelated changes in the same pull request.
+
 ## Testing
 
 Contributions should include tests when appropriate.
@@ -93,6 +103,12 @@ mvn verify
 ```
 
 Please make sure existing tests pass before submitting your changes.
+
+## Documentation
+
+Documentation should be updated when a change affects how users install, configure, or use the plugin.
+
+Please keep the README and other documentation clear and easy to understand. New features should include usage examples when appropriate.
 
 ## Pull Requests
 

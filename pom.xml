@@ -11,17 +11,19 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>...</version>
+        <version>6.2221.va_045130417c9</version>
+        <relativePath/>
     </parent>
 
-    <groupId>io.github.nauss</groupId>
+    <groupId>io.github.nauoss</groupId>
     <artifactId>jenkins-build-evidence-exporter</artifactId>
     <version>0.1.0-SNAPSHOT</version>
+    <packaging>hpi</packaging>
 
     <name>Jenkins Build Evidence Exporter</name>
 
     <description>
-        A Jenkins plugin that exports build metadata as portable JSON evidence.
+        A Jenkins plugin that collects build metadata and exports it as portable JSON evidence.
     </description>
 
     <url>
@@ -35,27 +37,12 @@
         </license>
     </licenses>
 
-    <dependencies>
-
-        <!-- Jenkins core/plugin APIs -->
-        <dependency>
-            <groupId>org.jenkins-ci.main</groupId>
-            <artifactId>jenkins-core</artifactId>
-            <version>...</version>
-        </dependency>
-
-        <!-- Testing -->
-        <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>junit</artifactId>
-            <version>...</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-
     <properties>
-        <maven.compiler.release>...</maven.compiler.release>
+        <!-- Minimum Jenkins version supported by this plugin -->
+        <jenkins.version>2.555.3</jenkins.version>
+
+        <!-- Java version used to build the plugin -->
+        <java.version>25</java.version>
     </properties>
 
 </project>
