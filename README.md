@@ -2,6 +2,10 @@
 
 Jenkins Build Evidence Exporter is an open-source Jenkins plugin that collects important metadata from completed Jenkins builds and exports it as a portable JSON evidence file.
 
+## Project Status
+
+This project is currently in early development. The Jenkins plugin is not ready for production use yet.
+
 ## Why This Project?
 
 Jenkins provides detailed information about every build, including build status, timing, source control information, and build artifacts. However, this information normally remains associated with the Jenkins build and its user interface.
